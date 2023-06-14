@@ -1,4 +1,3 @@
-<script>
 $('#contact-name')[0].value = getSavedValue("contact-name");
 $('#job-title')[0].value = getSavedValue("job-title");
 $('#email-address')[0].value = getSavedValue("email-address");
@@ -229,5 +228,3 @@ if (!localStorage.getItem(v)) {
 }
 return localStorage.getItem(v);
 }
-
-</script>
